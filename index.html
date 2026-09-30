@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kaoboy — single-file dashboards</title>
+<style>
+  :root { --bg:#fafaf7; --fg:#1a1a1a; --mute:#666; --accent:#b5541c; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#eee; --mute:#999; } }
+  body { margin:0; min-height:100vh; display:grid; place-items:center;
+         background:var(--bg); color:var(--fg);
+         font:18px/1.5 system-ui, -apple-system, sans-serif; }
+  main { max-width:36rem; padding:2rem; }
+  h1 { font-size:3rem; margin:0; letter-spacing:-0.02em; }
+  p { color:var(--mute); }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Kaoboy</h1>
+  <p>Single-file dashboards. Drop in a CSV, get your dashboard. No server, no cloud — your data never leaves your machine.</p>
+  <p><a href="https://github.com/kaoboy-dev/kaoboy">GitHub →</a></p>
+</main>
+</body>
+</html>
